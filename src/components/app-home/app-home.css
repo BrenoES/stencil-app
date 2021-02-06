@@ -1,0 +1,247 @@
+.app-home {
+  padding: 10px;
+}
+
+ul {
+  padding-inline-start: 25px;
+}
+li {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+}
+
+a {
+  text-decoration: none;
+}
+.main{
+  text-align: center;
+   padding-block-end: 10rem;
+}
+@media screen and (min-width: 992px) {
+  .main{
+    padding-inline: 8rem;
+    padding-block-start: 5rem;
+    padding-block-end: 10rem;
+  }
+}
+/* Buttons */
+.button--purple {
+  background: #5851ff;
+}
+
+.button--white {
+  background-color: #ffffff;
+}
+
+.button--pink {
+  background: hsl(322, 100%, 66%);
+}
+
+.button--pink:hover {
+  background: hsl(322, 100%, 80%);
+}
+
+.button--font-white {
+  color: white;
+}
+
+.button--large {
+  padding: 1rem 3em;
+}
+
+.button--medium {
+  padding: 9px 20px;
+}
+
+.button {
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  outline: 0;
+  letter-spacing: 0.04em;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+.button:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+
+/* Header */
+.header {
+  color: hsl(192, 100%, 9%);
+  background-image: url(../../assets/images/bg-hero-mobile.svg);
+  background-color: hsl(193, 100%, 96%);
+  height: max-content;
+  margin: -10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    background-image: url(../../assets/images/bg-hero-desktop.svg);
+  }
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0.8rem;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 45px;
+}
+
+@media screen and (min-width: 992px) {
+  .header-section {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-section > * {
+    flex: 1;
+  }
+}
+
+.header-section__title {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+@media screen and (min-width: 992px) {
+  .header-section__title {
+    font-size: 2.5rem;
+  }
+}
+.header-section__image {
+  margin: 2.5rem 0;
+}
+
+@media screen and (min-width: 992px) {
+  .header-section__description {
+    padding: 0 50px;
+    text-align: start;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header-section_text {
+    font-size: 1.2rem;
+  }
+}
+/* Footer */
+.footer {
+  position: relative;
+  background-color: hsl(192, 100%, 9%);
+  padding: 12rem 0rem 2rem;
+  margin: -10px;
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
+    padding: 12rem 3rem 2rem;
+  }
+}
+
+.footer-contacts__logo {
+  width: 30%;
+  filter: brightness(0) invert(1);
+  padding-inline-start: 1.5rem;
+}
+
+.footer-contacts__item {
+  margin: 1.4rem 0;
+}
+
+.footer-contacts__text {
+  display: inline-block;
+  color: white;
+  margin-inline-start: 20px;
+  margin-block: 0;
+}
+
+.footer-social__list {
+  display: inline-flex;
+  width: -webkit-fill-available;
+  justify-content: center;
+}
+@media screen and (min-width: 992px) {
+  .footer-social__list {
+    justify-content: start;
+  }
+}
+.footer-social__item {
+  margin: 1rem;
+}
+
+.footer-social__link {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-topics__list {
+    column-width: 120px;
+    orphans: 1;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .footer-topics__list {
+    column-width: 185px;
+  }
+}
+.footer-topics__link {
+  color: #ffffff;
+  line-height: 2rem;
+}
+
+.footer-card {
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .footer-card {
+    width: 40%;
+    padding: 3rem 0;
+  }
+}
+
+.footer-card__title {
+  text-transform: capitalize;
+}
+@media screen and (min-width: 992px) {
+  .footer-information {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-information > * {
+    flex: 1 100%;
+  }
+}
+
+/* Card */
+app-card p {
+  color: hsl(208, 11%, 55%);
+}
+
+app-card h2 {
+  color: hsl(192, 100%, 9%);
+}

@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  width: -webkit-fill-available;
+}
+
+.image-container{
+  margin: 0;
+}
+
+
+.image-content{
+  max-width: -webkit-fill-available;
+  object-fit: contain;
+}
