@@ -73,6 +73,25 @@ a {
   transform: translateY(1px);
 }
 
+/*Navbar*/
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0.8rem;
+}
+
+.nav-bar__image{
+  width: 10rem;
+}
+@media screen and (min-width: 992px) {
+  .nav-bar__image{
+    width: 14rem;
+    padding-inline-start: 4rem;
+  }
+}
+
 /* Header */
 .header {
   color: hsl(192, 100%, 9%);
@@ -87,13 +106,6 @@ a {
   .header {
     background-image: url(../../assets/images/bg-hero-desktop.svg);
   }
-}
-
-.nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 0.8rem;
 }
 
 .header-section {

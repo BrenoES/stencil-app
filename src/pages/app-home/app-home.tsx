@@ -80,7 +80,7 @@ export class AppHome {
       <div class="app-home">
         <header class="header">
           <nav class="nav-bar">
-            <app-image src={logo} alt="logo" style={{ width: '35%' }} />
+            <app-image src={logo} alt="logo" class="nav-bar__image" />
             <button class="button button--medium button--white">try it free</button>
           </nav>
           <section class="header-section">
