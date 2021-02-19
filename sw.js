@@ -27,11 +27,14 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "fb8807a1796faf9d4fa8e60b482faa98"
+    "revision": "b1e7c8db65ce3ccf4c544e97d42c3e7c"
   },
   {
     "url": "build/index.esm.js",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "build/p-06ff7bc5.entry.js"
   },
   {
     "url": "build/p-1d157f70.entry.js"
@@ -43,10 +46,16 @@ self.__precacheManifest = [
     "url": "build/p-2d72d652.js"
   },
   {
+    "url": "build/p-2fea1890.entry.js"
+  },
+  {
     "url": "build/p-326be59c.js"
   },
   {
     "url": "build/p-34505a02.entry.js"
+  },
+  {
+    "url": "build/p-538adabf.entry.js"
   },
   {
     "url": "build/p-5deb7750.entry.js"
@@ -58,19 +67,10 @@ self.__precacheManifest = [
     "url": "build/p-969c1682.entry.js"
   },
   {
-    "url": "build/p-98d84230.entry.js"
-  },
-  {
     "url": "build/p-9b6a9315.js"
   },
   {
     "url": "build/p-d43d9714.entry.js"
-  },
-  {
-    "url": "build/p-e0f82d35.entry.js"
-  },
-  {
-    "url": "build/p-f3e34709.entry.js"
   },
   {
     "url": "manifest.json",
